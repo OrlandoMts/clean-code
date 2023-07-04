@@ -1,0 +1,18 @@
+Lo que he aprendido acerca de clean code y principios SOLID
+## Seccion 2
+1. Usar nombres en la varibles que se entiendan
+2. No usar nombres cortos en las funciones pero tampoco tan largos que sean muy descriptivos
+	2.1 Cuidar la responsabilidad de cada funcion, por eso es importante que el nombre sea concreto
+3. Evitar el uso del "else" y usar mas el operador ternario
+4. Si una funcion excede a las 20 lineas seria ideal separar la logica
+5. En las funciones se deberian de mandar maximo 3 parametros.
+	5.1 Si hay mas de tres lo ideal seria crear una interfaz (objeto) para despues desestructurarla
+6. Cuidar el DRY (Dont repeat yoursel)
+
+
+## Seccion 3
+1. Priorizar la composición frente a la herencia
+	1.1 Se crean las clase sin extender de otra, y cada clase tiene una sola responsabilidad
+	1.2 Se crea un clase en la cual se compone con todas las otras clases que se van a compartir
+2. Soluciones similares a problemas similares*
+3. Evitar comentarios redundantes con el codigo, van mas por el lado de explicar el '¿Por qué?' 
