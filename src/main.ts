@@ -4,7 +4,9 @@ import "./style.css";
 // import "./code/05-dry";
 // import "./code/06-classes-c";
 // import "./code/07-homework";
-import "./code/08-static";
+// import "./code/08-static";
+// import "./solid/01-srp";
+import "./solid/02-ocp-a";
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 

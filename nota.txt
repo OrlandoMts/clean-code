@@ -15,4 +15,23 @@ Lo que he aprendido acerca de clean code y principios SOLID
 	1.1 Se crean las clase sin extender de otra, y cada clase tiene una sola responsabilidad
 	1.2 Se crea un clase en la cual se compone con todas las otras clases que se van a compartir
 2. Soluciones similares a problemas similares*
-3. Evitar comentarios redundantes con el codigo, van mas por el lado de explicar el '¿Por qué?' 
+3. Evitar comentarios redundantes con el codigo, van mas por el lado de explicar el '¿Por qué?'
+
+S.O.L.I.D.
+
+SRP - principio de responsabilidad unica
+	Que una clase o funcion solo tenga una sola responsabilidad
+	x Nombres de clases y módulos demasiado genericos
+	x La clase incolucra multiples capas
+	x Número elevado deimportaciones
+	x Cantidad elevada de métodos públicos
+
+OCP - Principio de abierto y cerrado (depende del contexto)
+	- Cerrado al cambio pero abierto para su extension
+	- Por ejemplo
+		Si tengo una funcion que guarda un archivo .txt con un nombre en especifico
+					writeFile( fileName: string)
+		writeFile ('hola.txt') 				writeFile('adios.txt')
+	x Cambios normales afectan nuestra clase o módulos
+	x Cuando una clase o módulo afecta muchas capas
+
