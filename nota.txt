@@ -35,3 +35,11 @@ OCP - Principio de abierto y cerrado (depende del contexto)
 	x Cambios normales afectan nuestra clase o módulos
 	x Cuando una clase o módulo afecta muchas capas
 
+Liskvo
+ - Sugerencia: implementar patron Repository, evitar no cumplir el OCP
+
+Segregations
+	- Ejemplo: evitar implementar interfaces que me forcen a hacer algo que no tiene sentido
+	en la funcion,clase
+	- Con esto se logra que el codigo sea tolerante al cambio
+

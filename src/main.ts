@@ -6,7 +6,9 @@ import "./style.css";
 // import "./code/07-homework";
 // import "./code/08-static";
 // import "./solid/01-srp";
-import "./solid/02-ocp-a";
+// import "./solid/02-ocp-a";
+// import "./solid/03-liskov-a";
+import "./solid/05-dependency-a";
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
